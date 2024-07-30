@@ -1,0 +1,39 @@
+{
+    "hyprland/workspaces": {
+        "persistent-workspaces": {
+                "*": 10,
+        }
+    },
+
+    "hyprland/language": {
+    "format": "{}",
+    "format-en": "EN",
+    "format-ru": "RU",
+    "keyboard-name": "at-translated-set-2-keyboard"
+    },
+
+    "battery": {
+        "format": "{capacity}%",
+        "interval": 3
+    },
+
+    "clock": {
+        "tooltip-format": "<big>{:%d %B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d-%m-%Y}"
+    },
+
+    "pulseaudio": {
+        "format": "{volume}%",
+    },
+
+    "backlight": {
+        "format": "{percent}%",
+    },
+
+    "layer": "top", // Waybar at top layer
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    "modules-left": ["hyprland/workspaces"],
+    // "modules-center": ["hyprland/window"],
+    "modules-right": ["tray", "pulseaudio", "backlight", "keyboard-state", "hyprland/language","battery", "clock"],
+}
