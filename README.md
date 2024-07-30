@@ -1,2 +1,2 @@
-# My Rising Linux
+# My Linux Rising
 ![](preview.png)
