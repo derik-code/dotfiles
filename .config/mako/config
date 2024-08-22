@@ -1,0 +1,5 @@
+font=Poppins 10
+max-visible=1
+border-radius=15
+background-color=#222222FF
+default-timeout=8000
